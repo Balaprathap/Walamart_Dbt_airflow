@@ -1,0 +1,9 @@
+{
+  "dbtPowerUser.projectDir": "C:\\Users\\balap\\Downloads\\data_project_dbt\\walmart_project",
+  "dbtPowerUser.profilesDir": "C:\\Users\\balap\\.dbt",
+  "dbtPowerUser.dbtPath": "C:\\Users\\balap\\Downloads\\data_project_dbt\\.venv\\Scripts\\dbt.exe",
+  "python.defaultInterpreterPath": "C:\\Users\\balap\\Downloads\\data_project_dbt\\.venv\\Scripts\\python.exe",
+  "terminal.integrated.env.windows": {
+    "DBT_PROFILES_DIR": "C:\\Users\\balap\\.dbt"
+  }
+}

@@ -1,0 +1,183 @@
+[0m15:35:29.646422 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002DA085D22D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002DA08572450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002DA08581B90>]}
+
+
+============================== 15:35:29.770321 | e731951c-c459-428f-9d69-5d313470ab4e ==============================
+[0m15:35:29.770321 [info ] [MainThread]: Running with dbt=1.11.12
+[0m15:35:29.771319 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\balap\\.dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt init', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m15:35:46.837423 [debug] [MainThread]: Starter project path: C:\Users\balap\Downloads\data_project_dbt\.venv\Lib\site-packages\dbt\include\starter_project
+[0m15:35:46.882451 [info ] [MainThread]: 
+Your new dbt project "walmart_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:35:46.883449 [info ] [MainThread]: Setting up your profile.
+[0m15:36:14.601495 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m15:36:14.602496 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m15:36:14.604400 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m15:38:40.400606 [info ] [MainThread]: Profile walmart_project written to C:\Users\balap\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m15:38:40.402605 [debug] [MainThread]: Command `dbt init` succeeded at 15:38:40.402605 after 190.89 seconds
+[0m15:38:40.403604 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002DA00A52950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002DA00780F90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002DA00780B10>]}
+[0m15:38:40.403604 [debug] [MainThread]: Flushing usage events
+[0m15:38:41.604318 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:11:50.071449 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028799ADD310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002879D143D90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002879D259450>]}
+
+
+============================== 16:11:50.075450 | ece41b9f-5d04-411d-b16f-74371b3ec951 ==============================
+[0m16:11:50.075450 [info ] [MainThread]: Running with dbt=1.11.12
+[0m16:11:50.076451 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\balap\\Downloads\\data_project_dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m16:11:50.094450 [info ] [MainThread]: dbt version: 1.11.12
+[0m16:11:50.095450 [info ] [MainThread]: python version: 3.11.15
+[0m16:11:50.095450 [info ] [MainThread]: python path: C:\Users\balap\Downloads\data_project_dbt\.venv\Scripts\python.exe
+[0m16:11:50.096451 [info ] [MainThread]: os info: Windows-10-10.0.26200-SP0
+[0m16:11:50.907876 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m16:11:50.908877 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m16:11:50.908877 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m16:11:51.574121 [info ] [MainThread]: Using profiles dir at C:\Users\balap\Downloads\data_project_dbt
+[0m16:11:51.575104 [info ] [MainThread]: Using profiles.yml file at C:\Users\balap\Downloads\data_project_dbt\profiles.yml
+[0m16:11:51.575104 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\balap\Downloads\data_project_dbt\dbt_project.yml
+[0m16:11:51.576105 [info ] [MainThread]: adapter type: databricks
+[0m16:11:51.576105 [info ] [MainThread]: adapter version: 1.12.2
+[0m16:11:51.577104 [info ] [MainThread]: Configuration:
+[0m16:11:51.577104 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m16:11:51.578105 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m16:11:51.578105 [info ] [MainThread]: Required dependencies:
+[0m16:11:51.578105 [debug] [MainThread]: Executing "git --help"
+[0m16:11:51.619111 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   history    EXPERIMENTAL: Rewrite history\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Set `HEAD` or the index to a known state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m16:11:51.620110 [debug] [MainThread]: STDERR: "b''"
+[0m16:11:51.620110 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m16:11:51.621111 [info ] [MainThread]: Connection:
+[0m16:11:51.621111 [info ] [MainThread]:   host: dbc-93b942be-61c7.cloud.databricks.com
+[0m16:11:51.621111 [info ] [MainThread]:   http_path: /sql/1.0/warehouses/d8316991c1a7aeea
+[0m16:11:51.621111 [info ] [MainThread]:   catalog: walmart
+[0m16:11:51.622615 [info ] [MainThread]:   schema: dbt_schema
+[0m16:11:51.622615 [info ] [MainThread]: Registered adapter: databricks=1.12.2
+[0m16:11:51.867215 [debug] [MainThread]: Databricks adapter: DatabricksDBTConnection(session-id=None, name=debug) - Creating connection
+[0m16:11:51.867215 [debug] [MainThread]: Acquiring new databricks connection 'debug'
+[0m16:11:53.292854 [info ] [MainThread]: Databricks adapter:   SPOG host (host_type='workspace'): no
+[0m16:11:53.293893 [info ] [MainThread]: Databricks adapter:   workspace_id (from ?o= in http_path): None
+[0m16:11:53.294854 [info ] [MainThread]: Databricks adapter:   databricks-sql-connector version: 4.3.0 (supported)
+[0m16:11:53.295852 [info ] [MainThread]: Databricks adapter:   databricks-sdk version: 0.117.0 (supported)
+[0m16:11:53.297123 [debug] [MainThread]: Using databricks connection "debug"
+[0m16:11:53.298133 [debug] [MainThread]: On debug: select 1 as id
+[0m16:11:53.298133 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m16:11:57.113045 [debug] [MainThread]: Databricks adapter: Connection(session-id=01f17d15-227f-1d5d-a953-4e0bccc97264) - Created
+[0m16:11:57.877061 [debug] [MainThread]: SQL status: OK in 4.580 seconds
+[0m16:11:57.878057 [debug] [MainThread]: Databricks adapter: Cursor(session-id=01f17d15-227f-1d5d-a953-4e0bccc97264, command-id=01f17d15-237c-15a0-845f-3c5f544315a9) - Closing
+[0m16:11:57.878057 [debug] [MainThread]: On debug: Close
+[0m16:11:57.879077 [debug] [MainThread]: Databricks adapter: Connection(session-id=01f17d15-227f-1d5d-a953-4e0bccc97264) - Closing
+[0m16:11:58.222254 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m16:11:58.223256 [info ] [MainThread]: [31m1 check failed:[0m
+[0m16:11:58.224251 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\balap\Downloads\data_project_dbt\dbt_project.yml> not found
+
+[0m16:11:58.225252 [debug] [MainThread]: Command `dbt debug` failed at 16:11:58.225252 after 8.23 seconds
+[0m16:11:58.226282 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000287968629D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002879D153290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002879658CE50>]}
+[0m16:11:58.226282 [debug] [MainThread]: Flushing usage events
+[0m16:11:59.296027 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:28:13.199036 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013D1B4A8710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013D1F3EA490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013D1F25EC10>]}
+
+
+============================== 20:28:13.205035 | a0d6045e-5f69-4fac-8173-7e03e2ec3969 ==============================
+[0m20:28:13.205035 [info ] [MainThread]: Running with dbt=1.11.12
+[0m20:28:13.206035 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\balap\\Downloads\\data_project_dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m20:28:13.235963 [info ] [MainThread]: dbt version: 1.11.12
+[0m20:28:13.236962 [info ] [MainThread]: python version: 3.11.15
+[0m20:28:13.236962 [info ] [MainThread]: python path: C:\Users\balap\Downloads\data_project_dbt\.venv\Scripts\python.exe
+[0m20:28:13.237963 [info ] [MainThread]: os info: Windows-10-10.0.26200-SP0
+[0m20:28:14.177164 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m20:28:14.178187 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m20:28:14.178187 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m20:28:15.234104 [info ] [MainThread]: Using profiles dir at C:\Users\balap\Downloads\data_project_dbt
+[0m20:28:15.234104 [info ] [MainThread]: Using profiles.yml file at C:\Users\balap\Downloads\data_project_dbt\profiles.yml
+[0m20:28:15.235144 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\balap\Downloads\data_project_dbt\dbt_project.yml
+[0m20:28:15.236105 [info ] [MainThread]: adapter type: databricks
+[0m20:28:15.236105 [info ] [MainThread]: adapter version: 1.12.2
+[0m20:28:15.237103 [info ] [MainThread]: Configuration:
+[0m20:28:15.237103 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m20:28:15.238102 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m20:28:15.238102 [info ] [MainThread]: Required dependencies:
+[0m20:28:15.239106 [debug] [MainThread]: Executing "git --help"
+[0m20:28:15.276289 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   history    EXPERIMENTAL: Rewrite history\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Set `HEAD` or the index to a known state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m20:28:15.276289 [debug] [MainThread]: STDERR: "b''"
+[0m20:28:15.277327 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m20:28:15.277327 [info ] [MainThread]: Connection:
+[0m20:28:15.278290 [info ] [MainThread]:   host: dbc-93b942be-61c7.cloud.databricks.com
+[0m20:28:15.278290 [info ] [MainThread]:   http_path: /sql/1.0/warehouses/d8316991c1a7aeea
+[0m20:28:15.279290 [info ] [MainThread]:   catalog: walmart
+[0m20:28:15.279290 [info ] [MainThread]:   schema: dbt_schema
+[0m20:28:15.280291 [info ] [MainThread]: Registered adapter: databricks=1.12.2
+[0m20:28:15.611609 [debug] [MainThread]: Databricks adapter: DatabricksDBTConnection(session-id=None, name=debug) - Creating connection
+[0m20:28:15.611609 [debug] [MainThread]: Acquiring new databricks connection 'debug'
+[0m20:28:17.066982 [info ] [MainThread]: Databricks adapter:   SPOG host (host_type='workspace'): no
+[0m20:28:17.066982 [info ] [MainThread]: Databricks adapter:   workspace_id (from ?o= in http_path): None
+[0m20:28:17.068086 [info ] [MainThread]: Databricks adapter:   databricks-sql-connector version: 4.3.0 (supported)
+[0m20:28:17.068086 [info ] [MainThread]: Databricks adapter:   databricks-sdk version: 0.117.0 (supported)
+[0m20:28:17.068984 [debug] [MainThread]: Using databricks connection "debug"
+[0m20:28:17.068984 [debug] [MainThread]: On debug: select 1 as id
+[0m20:28:17.068984 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m20:28:19.627154 [error] [MainThread]: databricks-sql-connector adapter: ThriftBackend.attempt_request: Exception: %s
+[0m20:28:19.646127 [error] [MainThread]: Databricks adapter: Connection(session-id=Unknown) - Exception while trying to create connection: Error during request to server: : Credential was not sent or was of an unsupported type for this API.. 
+Error properties: attempt=1/30, bounded-retry-delay=None, elapsed-seconds=1.213449239730835/900.0, error-message=: Credential was not sent or was of an unsupported type for this API., http-code=401, method=OpenSession, no-retry-reason=non-retryable error, original-exception=, query-id=None, session-id=None
+[0m20:28:19.647127 [debug] [MainThread]: Databricks adapter: Exception while trying to execute query
+select 1 as id
+: Database Error
+  Error during request to server: : Credential was not sent or was of an unsupported type for this API.. 
+[0m20:28:19.648127 [debug] [MainThread]: On debug: No close available on handle
+[0m20:28:19.648127 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m20:28:19.649629 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m20:28:19.649629 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\balap\Downloads\data_project_dbt\dbt_project.yml> not found
+
+[0m20:28:19.650635 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  Database Error
+    Error during request to server: : Credential was not sent or was of an unsupported type for this API.. 
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m20:28:19.650635 [debug] [MainThread]: Command `dbt debug` failed at 20:28:19.650635 after 6.57 seconds
+[0m20:28:19.651848 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013D1F51AE50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013D1F51AF10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013D18916750>]}
+[0m20:28:19.651848 [debug] [MainThread]: Flushing usage events
+[0m20:28:20.792505 [debug] [MainThread]: An error was encountered while trying to flush usage events
+{"data":{"log_version":3,"version":"=2.0.0-preview.196"},"info":{"category":"","code":"A001","extra":{},"invocation_id":"019f51e7-b207-7052-8903-01817828387d","level":"info","msg":"Running with dbt-fusion=2.0.0-preview.196","name":"MainReportVersion","pid":43056,"thread":"tokio-rt-worker","ts":"2026-07-11T15:59:26.729565Z"}}
+{"data":{"args":{"debug":"false","invocation_command":"C:\\Users\\balap\\.local\\bin\\dbt.exe license info --json --log-format json","log_format":"json","quiet":"false","write_json":"true"}},"info":{"category":"","code":"A002","extra":{},"invocation_id":"019f51e7-b207-7052-8903-01817828387d","level":"debug","msg":"running dbt-fusion with arguments {\"command\":\"license\",\"vars\":\"{}\",\"limit\":\"10\",\"debug\":false,\"log_format\":\"json\",\"quiet\":false,\"write_json\":true,\"write_catalog\":false,\"manage_state\":false}","name":"MainReportArgs","pid":43056,"thread":"tokio-rt-worker","ts":"2026-07-11T15:59:26.729589Z"}}
+{"data":{},"info":{"category":"","code":"","extra":{},"invocation_id":"019f51e7-b207-7052-8903-01817828387d","level":"debug","msg":"No platform credentials found, skipping remote license","name":"Generic","pid":43056,"thread":"tokio-rt-worker","ts":"2026-07-11T15:59:26.737026Z"}}
+{"data":{},"info":{"category":"","code":"","extra":{},"invocation_id":"019f51e7-b207-7052-8903-01817828387d","level":"debug","msg":"Requesting trial license from https://cloud.getdbt.com/api/private/trial-licenses/","name":"Generic","pid":43056,"thread":"main","ts":"2026-07-11T15:59:27.821449Z"}}
+{"data":{},"info":{"category":"","code":"","extra":{},"invocation_id":"019f51e7-b207-7052-8903-01817828387d","level":"debug","msg":"Trial license retrieved","name":"Generic","pid":43056,"thread":"main","ts":"2026-07-11T15:59:28.642854Z"}}
+{"data":{},"info":{"category":"","code":"","extra":{},"invocation_id":"019f51e7-b207-7052-8903-01817828387d","level":"debug","msg":"License loaded from trial license server","name":"Generic","pid":43056,"thread":"tokio-rt-worker","ts":"2026-07-11T15:59:29.305523Z"}}
+{"data":{"columns":[],"is_inline":true,"node_name":"license_info","output_format":"json","preview":"{\n  \"status\": \"valid\",\n  \"licensing_enabled\": true,\n  \"features\": [\n    \"compare\",\n    \"strict-static-analysis\"\n  ],\n  \"issued_at\": \"2026-07-11T15:59:28+00:00\",\n  \"expires_at\": \"2026-07-25T15:57:54+00:00\",\n  \"license_type\": \"trial\",\n  \"machine_id\": \"f867eb0097cb9897db6a02a3214301454db1fbea3c4ecc43f2a4c26c70a69914\",\n  \"days_remaining\": 13,\n  \"trial_start_date\": \"2026-07-11T15:57:54+00:00\"\n}","unique_id":"license.info"},"info":{"category":"","code":"Q041","extra":{},"invocation_id":"019f51e7-b207-7052-8903-01817828387d","level":"info","msg":"{\n  \"status\": \"valid\",\n  \"licensing_enabled\": true,\n  \"features\": [\n    \"compare\",\n    \"strict-static-analysis\"\n  ],\n  \"issued_at\": \"2026-07-11T15:59:28+00:00\",\n  \"expires_at\": \"2026-07-25T15:57:54+00:00\",\n  \"license_type\": \"trial\",\n  \"machine_id\": \"f867eb0097cb9897db6a02a3214301454db1fbea3c4ecc43f2a4c26c70a69914\",\n  \"days_remaining\": 13,\n  \"trial_start_date\": \"2026-07-11T15:57:54+00:00\"\n}","name":"ShowNode","pid":43056,"thread":"tokio-rt-worker","ts":"2026-07-11T15:59:30.027073Z"}}
+{"data":{"completed_at":"2026-07-11T15:59:30.208890Z","elapsed":3.4794697761535645,"success":true},"info":{"category":"","code":"Q039","extra":{},"invocation_id":"019f51e7-b207-7052-8903-01817828387d","level":"info","msg":"\n==================== Execution Summary =====================\nFinished 'license' successfully [3.5s]","name":"CommandCompleted","pid":43056,"thread":"tokio-rt-worker","ts":"2026-07-11T15:59:30.209118Z"}}
+[0m17:22:04.720064 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023AA7B6AF50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023AA7B6B050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023AA78E5F10>]}
+
+
+============================== 17:22:04.724062 | fb2d826f-c7a7-4d20-b133-7952aafcb3f5 ==============================
+[0m17:22:04.724062 [info ] [MainThread]: Running with dbt=1.11.12
+[0m17:22:04.725064 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\balap\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt run --select silver_t', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m17:22:04.725570 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\balap\Downloads\data_project_dbt\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m17:22:04.726576 [debug] [MainThread]: Command `dbt run` failed at 17:22:04.725570 after 0.09 seconds
+[0m17:22:04.726576 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023AA77FAA50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023AA0D81A90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023AA7AA2150>]}
+[0m17:22:04.726576 [debug] [MainThread]: Flushing usage events
+[0m17:22:05.785553 [debug] [MainThread]: An error was encountered while trying to flush usage events
