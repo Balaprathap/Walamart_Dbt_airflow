@@ -224,13 +224,8 @@ Resources include:
 
 ---
 
-## Apache Airflow DAG
 
-![](images/airflow_success.png)
-
----
-
-## Airflow Successful Execution
+## Apache Airflow DAG and Successful Execution
 
 ![](images/airflow_dag.png)
 
