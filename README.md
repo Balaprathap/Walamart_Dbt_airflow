@@ -220,7 +220,7 @@ Resources include:
 
 ## Databricks Jobs
 
-![](images/databricks_jobs.png)
+![](images/databricks-jobs.png)
 
 ---
 
