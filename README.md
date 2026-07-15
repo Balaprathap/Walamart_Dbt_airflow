@@ -237,11 +237,7 @@ Resources include:
 
 ---
 
-## Overall Architecture
 
-![](images/architecture.png)
-
----
 
 # 🧪 Data Quality
 
