@@ -238,7 +238,7 @@ Resources include:
 
 ## Docker Containers
 
-![](images/docker.png)
+![](images/docker-containers.png)
 
 ---
 
