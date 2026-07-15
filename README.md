@@ -330,12 +330,11 @@ MS Computer & Information Science
 
 Florida Atlantic University
 
-GitHub:
+GitHub: 
 https://github.com/Balaprathap
 
 LinkedIn:
-https://www.linkedin.com/in/bala-prathap-30502817a/
-
+https://www.linkedin.com/in/balaprathap-chellakkannu/
 ---
 
-# ⭐ If you found this project useful, please give it a Star!
+
