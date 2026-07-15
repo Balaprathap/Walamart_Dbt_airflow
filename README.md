@@ -226,13 +226,13 @@ Resources include:
 
 ## Apache Airflow DAG
 
-![](images/airflow_dag.png)
+![](images/airflow_success.png)
 
 ---
 
 ## Airflow Successful Execution
 
-![](images/airflow_success.png)
+![](images/airflow_dag.png)
 
 ---
 
